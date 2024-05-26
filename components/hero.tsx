@@ -66,7 +66,7 @@ export default function Hero() {
                 <div>
                   <a
                     className="w-full mb-4 text-white bg-blue-600 btn hover:bg-blue-700 sm:w-auto sm:mb-0"
-                    href="https://drive.google.com/file/d/1dSyGeMBmtgRrmAaOZJzmHjEnp_reMSRl/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1qjhNsWyvm_6a-zLeJinNd8SsmzbuAERY/view?usp=sharing"
                     target="_blank"
                   >
                     Download
