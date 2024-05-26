@@ -1,5 +1,6 @@
 import Link from "next/link";
 import logo from "../../public/images/logo-icon.png";
+import { url } from "inspector";
 
 export default function Logo() {
   return (
@@ -14,7 +15,9 @@ export default function Logo() {
         </defs>
         <rect width="32" height="32" rx="16" fill="url(#footer-logo)" fillRule="nonzero" />
       </svg> */}
-      <div className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400">
+      <div style={{
+        // backgroundImage: logo;
+      }} className="logo | font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400">
         Chatteru
       </div>
     </Link>
