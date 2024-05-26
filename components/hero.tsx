@@ -44,10 +44,11 @@ export default function Hero() {
               className="mb-4 text-5xl font-extrabold tracking-tighter md:text-6xl leading-tighter"
               data-aos="zoom-y-out"
             >
-              Learn like a Pro with your AI Bro,{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400">
-                Chatteru
+                Chatteru.
               </span>
+              <br />
+              Learn like a Pro, with your AI Bro.
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
