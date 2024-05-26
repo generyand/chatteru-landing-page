@@ -70,7 +70,7 @@ export default function Hero() {
                     className="w-full mb-4 text-white bg-blue-600 btn hover:bg-blue-700 sm:w-auto sm:mb-0"
                     href="https://drive.google.com/file/d/1cOIXWD2q4COulpCRxzzma9aW_Wxe9LzG/view?usp=sharing"
                     target="_blank"
-                    download
+                    // download
                   >
                     Download
                   </a>
