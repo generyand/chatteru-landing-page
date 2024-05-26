@@ -2,7 +2,7 @@ import Logo from "./logo";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id="contact">
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
         {/* Top area: Blocks */}
         <div className="grid gap-8 py-8 border-t border-gray-200 sm:grid-cols-12 md:py-12">
@@ -10,7 +10,14 @@ export default function Footer() {
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
               <Logo />
+              <a
+                href="#0"
+                className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+              >
+                chatteruapp2024@gmail.com
+              </a>
             </div>
+
             <div className="text-sm text-gray-600">
               <a
                 href="#0"
