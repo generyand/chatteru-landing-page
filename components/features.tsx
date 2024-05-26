@@ -161,7 +161,7 @@ export default function Features() {
             </div>
 
             {/* Tabs items */}
-            <div className="max-w-xl mx-auto mb-8 md:max-w-none md:w-full md:col-span-5 lg:col-span-6 md:mb-0 md:order-1">
+            <div className="max-w-xl mx-auto mt-8 mb-8 md:max-w-none md:w-full md:col-span-5 lg:col-span-6 md:mb-0 md:order-1">
               <div className="transition-all">
                 <div
                   className="relative flex flex-col text-center lg:text-right"
@@ -184,7 +184,7 @@ export default function Features() {
                   >
                     <div className="relative inline-flex flex-col">
                       <Image
-                        className="mx-auto bg-red-700 rounded md:max-w-none"
+                        className="mx-auto rounded md:max-w-none"
                         src={feature1}
                         width={280}
                         // height="200"
