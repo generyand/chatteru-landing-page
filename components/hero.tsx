@@ -64,9 +64,10 @@ export default function Hero() {
                 data-aos-delay="300"
               >
                 <div>
+                  {/* DOWNLOAD LINK USING GOOGLE DRIVE */}
                   <a
                     className="w-full mb-4 text-white bg-blue-600 btn hover:bg-blue-700 sm:w-auto sm:mb-0"
-                    href="https://drive.google.com/file/d/1qjhNsWyvm_6a-zLeJinNd8SsmzbuAERY/view?usp=sharing"
+                    href="https://drive.google.com/file/d/10HSC6u9uA3yrSS4TbGXvgTF3zt2l1nK9/view?usp=sharing"
                     target="_blank"
                   >
                     Download
