@@ -184,10 +184,10 @@ export default function Features() {
                   >
                     <div className="relative inline-flex flex-col">
                       <Image
-                        className="mx-auto rounded md:max-w-none"
+                        className="mx-auto bg-red-700 rounded md:max-w-none"
                         src={feature1}
-                        width={300}
-                        height="462"
+                        width={280}
+                        // height="200"
                         alt="Features bg"
                       />
                       {/* <Image
@@ -218,8 +218,8 @@ export default function Features() {
                       <Image
                         className="mx-auto rounded md:max-w-none"
                         src={feature2}
-                        width={300}
-                        height="462"
+                        width={280}
+                        // height="462"
                         alt="Features bg"
                       />
                       {/* <Image
@@ -250,8 +250,8 @@ export default function Features() {
                       <Image
                         className="mx-auto rounded md:max-w-none"
                         src={feature3}
-                        width={300}
-                        height="462"
+                        width={280}
+                        // height="462"
                         alt="Features bg"
                       />
                       {/* <Image
