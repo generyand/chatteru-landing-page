@@ -76,8 +76,7 @@ export default function Features() {
                       Instant Answers
                     </div>
                     <div className="text-gray-600">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Iste ullam porro voluptate a, quas blanditiis?
+                      Immediate, accurate responses at the speed of thought.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -107,8 +106,8 @@ export default function Features() {
                       Voice Prompts
                     </div>
                     <div className="text-gray-600">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Nostrum ipsam ex ipsa nihil, mollitia ab.
+                      Provision of speech and guidance, providing user-friendly,
+                      hands-free navigation through the app.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -141,9 +140,8 @@ export default function Features() {
                       Image Recognition
                     </div>
                     <div className="text-gray-600">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Quo assumenda officiis veritatis sequi temporibus
-                      similique.
+                      Advanced feature for identifying and interpreting visual
+                      data in real-time.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
