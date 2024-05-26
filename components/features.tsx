@@ -5,6 +5,9 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import FeaturesBg from "@/public/images/features-bg.png";
 import FeaturesElement from "@/public/images/features-element.png";
+import feature1 from "@/public/images/instant-answers.png";
+import feature2 from "@/public/images/voice-prompts.png";
+import feature3 from "@/public/images/image-recognition.png";
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -50,7 +53,8 @@ export default function Features() {
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="mb-3 h3">Key Features</h3>
                 <p className="text-xl text-gray-600">
-                Chatteru offers a suite of advanced capabilities designed to enhance your productivity, learning, and creativity.
+                  Chatteru offers a suite of advanced capabilities designed to
+                  enhance your productivity, learning, and creativity.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -72,7 +76,8 @@ export default function Features() {
                       Instant Answers
                     </div>
                     <div className="text-gray-600">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste ullam porro voluptate a, quas blanditiis?
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iste ullam porro voluptate a, quas blanditiis?
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -102,7 +107,8 @@ export default function Features() {
                       Voice Prompts
                     </div>
                     <div className="text-gray-600">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ipsam ex ipsa nihil, mollitia ab.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Nostrum ipsam ex ipsa nihil, mollitia ab.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -135,7 +141,9 @@ export default function Features() {
                       Image Recognition
                     </div>
                     <div className="text-gray-600">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo assumenda officiis veritatis sequi temporibus similique.
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Quo assumenda officiis veritatis sequi temporibus
+                      similique.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -145,8 +153,7 @@ export default function Features() {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z"
-                        fill="#191919"
+                        d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z"
                         fillRule="nonzero"
                       />
                     </svg>
@@ -180,19 +187,19 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="mx-auto rounded md:max-w-none"
-                        src={FeaturesBg}
-                        width={500}
+                        src={feature1}
+                        width={300}
                         height="462"
                         alt="Features bg"
                       />
-                      <Image
+                      {/* <Image
                         className="absolute left-0 w-full transform md:max-w-none animate-float"
                         src={FeaturesElement}
                         width={500}
                         height="44"
                         alt="Element"
                         style={{ top: "30%" }}
-                      />
+                      /> */}
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -212,19 +219,19 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="mx-auto rounded md:max-w-none"
-                        src={FeaturesBg}
-                        width={500}
+                        src={feature2}
+                        width={300}
                         height="462"
                         alt="Features bg"
                       />
-                      <Image
+                      {/* <Image
                         className="absolute left-0 w-full transform md:max-w-none animate-float"
                         src={FeaturesElement}
                         width={500}
                         height="44"
                         alt="Element"
                         style={{ top: "30%" }}
-                      />
+                      /> */}
                     </div>
                   </Transition>
                   {/* Item 3 */}
@@ -244,19 +251,19 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="mx-auto rounded md:max-w-none"
-                        src={FeaturesBg}
-                        width={500}
+                        src={feature3}
+                        width={300}
                         height="462"
                         alt="Features bg"
                       />
-                      <Image
+                      {/* <Image
                         className="absolute left-0 w-full transform md:max-w-none animate-float"
                         src={FeaturesElement}
                         width={500}
                         height="44"
                         alt="Element"
                         style={{ top: "30%" }}
-                      />
+                      /> */}
                     </div>
                   </Transition>
                 </div>

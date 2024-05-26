@@ -68,7 +68,7 @@ export default function Hero() {
                   {/* DOWNLOAD LINK USING GOOGLE DRIVE */}
                   <a
                     className="w-full mb-4 text-white bg-blue-600 btn hover:bg-blue-700 sm:w-auto sm:mb-0"
-                    href="https://drive.google.com/file/d/10HSC6u9uA3yrSS4TbGXvgTF3zt2l1nK9/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1-lDfbeuKyB1p7A2ysLqEHjYoBfXAmlEA/view?usp=sharing"
                     target="_blank"
                   >
                     Download
@@ -77,7 +77,8 @@ export default function Hero() {
                 <div>
                   <a
                     className="w-full text-white bg-gray-900 btn hover:bg-gray-800 sm:w-auto sm:ml-4"
-                    href="#0"
+                    href="https://www.youtube.com/watch?v=N-NeUsI3BLk"
+                    target="_blank"
                   >
                     Watch Demo
                   </a>
@@ -92,7 +93,7 @@ export default function Hero() {
             thumbWidth={768}
             thumbHeight={432}
             thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
+            video="/videos/promotional-vid.mp4"
             videoWidth={1920}
             videoHeight={1080}
           />
