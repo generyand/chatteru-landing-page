@@ -68,7 +68,7 @@ export default function Hero() {
                   {/* DOWNLOAD LINK USING GOOGLE DRIVE */}
                   <a
                     className="w-full mb-4 text-white bg-blue-600 btn hover:bg-blue-700 sm:w-auto sm:mb-0"
-                    href="https://drive.google.com/file/d/1g6JVg9YpPOkfzmCmCCnnlFV9aU7wGhmc/view?usp=sharing"
+                    href="#0"
                     target="_blank"
                     // download
                   >
